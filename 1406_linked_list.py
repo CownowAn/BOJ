@@ -19,7 +19,7 @@ class SinglyLinkedList(object):
     # Return the length of linked list
     def length(self):
       if self.head == None:
-        return -1
+        return 0
       else:
         cur = self.head
         cur_i = 0
